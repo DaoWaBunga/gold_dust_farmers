@@ -8,6 +8,7 @@ export default function NavBar() {
                 <Heading>Gold Dust Farms</Heading>
                 <Flex alignItems={"center"}>
                     <Link href={"/"} mx={2}>Home</Link>
+                    <Link href={"/dapp"} mx={2}>Farm</Link>
                     <Link href={"/shop"} mx={2}>Shop</Link>
                 </Flex>
                 <ConnectWallet/>
